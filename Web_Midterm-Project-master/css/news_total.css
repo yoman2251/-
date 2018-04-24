@@ -1,0 +1,113 @@
+body{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width:100%;
+}
+.container{
+    width: 100%;
+    height: 1400px;
+}
+
+/*header*********************************/
+header{
+    position: relative;
+    width:100%;
+    height: 70px;
+}
+.column_background{
+    position: fixed;
+    width:100%;
+    height: 70px;
+    background-color: #085394;
+    z-index: 3;
+}
+ ul{
+    position: fixed;
+    left:150px;
+    z-index: 3;
+    padding-left: 0px;
+    margin-top:16px;
+    width: 100%;
+    height: 70px;
+}
+ li{
+    display: inline-block;
+    margin-right: 60px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 28px;
+    font-family: "Microsoft JhengHei";
+    font-weight: bolder;
+    color: white;
+}
+ul a li:hover{
+    color: red;
+}
+#logo{
+    position: fixed;
+    width: 100px;
+    height: 70;
+    z-index: 3;
+}
+#fb{
+    position: fixed;
+    margin-top: 11px;
+    width: 48px;
+    height: 48px;
+    right: 15%;
+    z-index: 3;
+}
+#ig{
+    position: fixed;
+    margin-top: 11px;
+    width: 48px;
+    height: 48px;
+    right: 8%;
+    z-index: 3;
+}
+#youtube{
+    position: fixed;
+    margin-top: 11px;
+    width: 48;
+    height: 48;
+    right: 1%;
+    z-index: 3;
+}
+/******************************************/
+
+.item_title{
+    margin-left: auto;
+    margin-right: auto; 
+    width: 850;
+    height: 40px;
+    margin-bottom: 10px;
+    
+}
+.image{
+    margin-left: auto;
+    margin-right: auto; 
+    width: 70%;
+    height: 500px;
+    margin-bottom: 10px;
+}
+.image img{
+    height:500;
+}
+
+.title{
+    margin-left: auto;
+    margin-right: auto; 
+    width: 70%;
+}
+
+.word{
+    margin-left: auto;
+    margin-right: auto; 
+    width: 70%;
+}
+h6{
+    margin-top: -10px;
+    float: right;
+}
