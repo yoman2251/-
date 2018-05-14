@@ -1,0 +1,386 @@
+body
+{
+    width: 1440px;
+    margin: 0 auto;
+    font-family: "Microsoft JhengHei";
+}
+
+#mainNav
+{
+    width: 100%;
+    height: 130px;
+    padding: 0px;
+}
+
+#mainNav img
+{
+    margin-left: 60px;
+    width: 443px;
+    height: 80px;
+}
+
+.navbar-brand
+{
+    margin-right: 0px;
+}
+
+.list
+{
+    float:right;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.list ul
+{
+    flex-direction: row;
+}
+
+.list li
+{
+    margin-right: 30px;
+}
+
+.list a
+{
+    font-size: 14px;
+    color: #6c6c6c
+}
+.list a:hover
+{
+    color: #d7ac41
+}
+
+.masthead
+{
+    background-image: url("../img/top-banner.jpg");
+    width: 100%;
+    height: 782px;
+    padding: 0px;
+}
+
+.title
+{
+    padding: 0px;
+}
+
+.big_title
+{
+    width: 810px;
+}
+
+.title h1
+{
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin-left: 315px;
+    margin-right: 315px;
+    margin-top: 335px;
+    margin-bottom: 32px;
+}
+
+.small_title
+{
+    width: 540px;
+}
+
+.title p
+{
+    font-size: 24px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.info
+{
+    background-image: url("../img/about-bg.jpg");
+    width: 100%;
+    height: 754px;
+    padding: 0px;
+}
+
+.about
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.about img
+{
+    width: 120px;
+    height: 120px;
+    margin-left: 660px;
+    margin-right: 660px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.bannertext
+{
+    width: 770px;
+    margin-left: 335px;
+    margin-right: 335px;
+}
+
+.bannertext h2
+{
+    width: 770px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.62;
+    margin-bottom: 0px;
+}
+
+.bannertext span
+{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.about HR
+{
+    border: solid 1px;
+    color: #d7ac41;
+    width: 62px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.service
+{
+    background-image: url("../img/service-bg.jpg");
+    width: 100%;
+    height: 667px;
+    padding: 0px;
+}
+
+.title
+{
+    margin: 0px;
+}
+
+.service HR
+{
+    border: solid 1px;
+    color: #d7ac41;
+    width: 62px;
+    margin-left: 689px;
+    margin-right: 689px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.service h3
+{
+    font-size: 50px;
+    font-weight: 600;
+    color: #4a494b;
+    margin-left: 620px;
+    margin-right: 620px;
+    margin-bottom: 40px;
+}
+
+.button
+{
+    width: 1170px;
+    height: 330px;
+    padding: 0px;
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-bottom: 100px;
+}
+
+.service-box 
+{
+    width: 270px;
+    height: 60px;
+    font-size: 16px;
+    color: #6C6C6C;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 0;
+    border-radius: 0;
+    padding-top: 16px;
+    padding-bottom: 16px; 
+}
+
+.box
+{
+    padding-left: 0px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.team
+{
+    width: 100%;
+    height: 850px;
+    padding: 0px;
+}
+
+.team HR
+{
+    border: solid 1px;
+    color: #d7ac41;
+    width: 62px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.team h3
+{
+    font-size: 50px;
+    font-weight: 600;
+    color: #4a494b;
+    margin-left: 620px;
+    margin-right: 620px;
+    margin-bottom: 40px;
+}
+
+.member
+{
+    width: 1200px;
+    height: 400px;
+    margin-left: 135px;
+    margin-right: 105px;
+}
+.member img
+{
+    width: 270px;
+    height: 400px;
+}
+
+.member .col-md-6
+{
+    padding-left: 0px;
+    padding-right: 30px;
+}
+
+.card
+{
+    width: 570px;
+    height: 400px;
+    margin: 0px;
+    border: 0px;
+    max-width: 100%;
+}
+
+.intra
+{
+    background: #f6f7f8;
+    width: 300px;
+    height: 400px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.intra h4
+{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.intra h5
+{
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 18px;
+}
+.intra h6
+{
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 16px;
+}
+
+.intra p
+{
+    font-size: 16px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.btnn
+{
+    height: 60px;
+    width: 270px;
+    font-size: 16px;
+    border: solid 1px;
+    color: #d7ac41;
+    margin-top: 60px;
+    margin-left: 585px;
+    margin-right: 585px;
+    padding-top: 19px;
+    padding-bottom: 19px
+}
+
+.foot
+{
+    background-image: url("../img/footer-bg.jpg");
+    width: 100%;
+    height: 437px;
+    padding: 0px;
+}
+
+.connection
+{
+    padding: 0px;
+}
+
+.foot HR
+{
+    border: solid 1px;
+    color: #d7ac41;
+    width: 62px;
+    margin-left: 135px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.foot h3
+{
+    font-size: 50px;
+    font-weight: 600;
+    color: #4a494b;
+    margin-left: 135px;
+    margin-right: 1105px;
+    margin-bottom: 40px;
+}
+
+.footertext
+{
+    width: 645px;
+    padding: 0px;
+    margin-left: 135px;
+}
+
+.footertext .col-4
+{
+    margin-right: 110px;
+}
+
+.footertext p
+{
+    font-size: 16px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+footer
+{
+    width: 100%;
+    height: 48px;
+    background-color: #2b2c2c;
+    line-height: 48px;
+}
+
+footer p
+{
+    font-size: 16px;
+    color: white;
+}
